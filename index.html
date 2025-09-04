@@ -87,7 +87,7 @@
           <span class="font-bangla text-xl font-bold">জানালা</span>
         </a>
       </div>
-      <div class="navbar-end hidden md:flex w-full">
+      <div class="navbar-end w-full hidden md:flex">
         <ul class="menu menu-horizontal px-1 space-x-4">
           <li>
             <button
@@ -117,56 +117,37 @@
       </div>
     </header>
     <main>
+      <!-- First Section -->
       <section
-        class="w-full flex items-center flex-col-reverse md:flex-row gap-10 md:gap-20 justify-between px-5 md:px-10 lg:px-20 py-10 md:py-20"
+        class="flex justify-between flex-col-reverse gap-5 md:flex-row mt-12 md:mx-10 lg:mx-20"
       >
-        <div class="w-full">
-          <div class="md:pr-20">
-            <h2
-              class="font-bold text-center text-3xl md:text-4xl md:text-start leading-snug"
-            >
-              <span class="text-blue-500">English</span> is Easy!!
-            </h2>
-            <p
-              class="font-bangla font-medium text-base mt-4 text-center md:text-start md:w-4/5"
-            >
-              আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
-              আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে
-              যাবে অন্য একটি Level এ
-            </p>
-            <!-- Form -->
-            <form
-              class="flex flex-col w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg gap-3 mt-6 mx-auto md:mx-0"
-            >
-              <input
-                type="text"
-                placeholder="Enter Your Name"
-                aria-label="Your Name"
-                class="input input-bordered md:w-64"
-              />
-              <input
-                type="password"
-                placeholder="************"
-                aria-label="Your Password"
-                class="input input-bordered md:w-64"
-              />
-              <button
-                type="submit"
-                class="btn btn-primary md:w-40 transition duration-200 hover:scale-105"
-              >
-                Get Start
-              </button>
-            </form>
-          </div>
+        <div
+          class="w-full mx-auto flex flex-col items-center md:items-start text-center md:text-start md:mx-0 md:w-1/2 my-auto"
+        >
+          <h2 class="font-bold text-4xl text-center md:text-5xl md:text-start">
+            <span class="text-blue-400">English</span> is Easy!!
+          </h2>
+          <p class="font-bangla font-medium text-lg md:text-2xl mt-6">
+            আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
+            আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে
+            অন্য একটি Level এ
+          </p>
+          <form class="mt-6 w-full max-w-xs" action="">
+            <input
+              type="email"
+              placeholder="Enter Your Email"
+              class="max-w-xs md:w-full px-1 py-2 rounded-md"
+            />
+            <input
+              type="password"
+              placeholder="********"
+              class="max-w-xs md:w-full px-1 py-2 rounded-md mt-3"
+            />
+            <button class="btn btn-primary mt-3">Get Started</button>
+          </form>
         </div>
-
-        <!-- Image -->
-        <div class="w-full flex justify-center">
-          <img
-            src="./assets/hero-student.png"
-            alt="Student Learning English"
-            class="w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
-          />
+        <div class="w-full mx-auto md:w-1/2">
+          <img src="./assets/hero-student.png" alt="" />
         </div>
       </section>
     </main>
